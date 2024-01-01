@@ -135,13 +135,13 @@ DL_LECTURES = [
 ]
 
 
-SCHEDULES: list[Schedule] = []
+schedules: list[Schedule] = []
 repeat = 1000
 
 for i in range(repeat):
-    SCHEDULES.append(create_schedule())
+    schedules.append(create_schedule())
 
-sorted_schedules = sorted(SCHEDULES, key=lambda x: x.rating, reverse=True)
+sorted_schedules = sorted(schedules, key=lambda x: x.rating, reverse=True)
 best = sorted_schedules[0].rating
 
 for sort in sorted_schedules:
