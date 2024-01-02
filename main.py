@@ -3,7 +3,7 @@ from enum import Enum
 from math import sqrt
 
 MAX_RATING = 100
-LATE_HOUR = 12# If there is a lesson latter then LATE_HOUR then we will be subtracting LATE_HOUR_PENALTY.
+LATE_HOUR = 12  # If there is a lesson latter then LATE_HOUR then we will be subtracting LATE_HOUR_PENALTY.
 LATE_HOUR_PENALTY = 20
 
 
